@@ -1,0 +1,34 @@
+body {
+    display: grid;
+    place-items: center;
+    height:100vh;
+    text-align: center;
+}
+
+.box {
+    border: 3px  dashed;
+    padding: 1rem 5rem;
+    border-radius: 30px ;
+    background-color: rgb(160, 223, 197);
+}
+
+.container {
+    border: 3px solid;
+    margin:50px auto;
+}
+
+button {
+    margin: 10rem auto;
+}
+
+button:hover {
+    transform: translateX(-5px) translateY(-5px);
+    box-shadow: 7px 7px 10px;
+}
+
+p {
+    border: dashed;
+    padding: 10px 24px;
+    background:rgb(35, 193, 145);
+    border-radius: 30px ;
+}
